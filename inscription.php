@@ -1,9 +1,14 @@
 <?php include_once 'templates/header.php'?>
 <link rel="stylesheet" href="css/form.css">
 <?php include_once 'templates/navbar.php'?>
-<div class="form2">
-      <div class="title">Bonjour,</div>
-      <div class="subtitle">Identifiez-vous ici !</div>
+<div class="form">
+      <div class="title">Bienvenu,</div>
+      <div class="subtitle">Créez-vous un compte ici !</div>
+      <div class="input-container ic1">
+        <input id="firstname" class="input" type="text" placeholder=" "  autocomplete= off/>
+        <div class="cut"></div>
+        <label for="firstname" class="placeholder">Pseudo</label>
+      </div>
       <div class="input-container ic2">
         <input id="email" class="input" type="text" placeholder=" " autocomplete= off/>
         <div class="cut cut-short"></div>
@@ -12,10 +17,10 @@
       <div class="input-container ic2">
         <input id="password" class="input" type="password" placeholder=" " />
         <div class="cut cut-long"></div>
-        <label for="password" class="placeholder">Mot de passe</label>
+        <label for="password" class="placeholder">Mot De Passe</label>
       </div>
 
-      <button type="text" class="submit">Se connecter</button>
+      <button type="text" class="submit">Créer mon compte</button>
     </div>
 
 
