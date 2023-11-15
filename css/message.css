@@ -30,14 +30,12 @@ body {
     margin-top: 10px;
   }
 
-/* Styles pour le lien "Connexion" */
 a.submit {
     display: inline-block;
     text-decoration: none;
-    line-height: 50px; /* Égale à la hauteur du bouton */
+    line-height: 50px;
     vertical-align: middle;
 
-    /* Styles du bouton */
     background-color: var(--red);
     border-radius: 12px;
     border: 0;

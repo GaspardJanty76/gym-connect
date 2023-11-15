@@ -11,13 +11,13 @@
       </a>
     </li>
     <li>
-      <a href="../gym-connect/connexion.php">
+      <a href="../gym-connect/profil.php">
         <span>Profil</span>
         <i class="fas fa-address-card" aria-hidden="true"></i>
       </a>
     </li>
     <li>
-      <a href="../gym-connect/choixconnexion.php">
+      <a href="../gym-connect/amis.php">
         <span>Amis</span>
         <i class="fas fa-users" aria-hidden="true"></i>
       </a>

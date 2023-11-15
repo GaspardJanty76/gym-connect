@@ -39,15 +39,12 @@ body {
   background: var(--red);
 }
 
-/* MAIN STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* Ajoutez ces styles à la fin de votre fichier CSS */
 
 .nav {
     position: fixed;
     bottom: 0;
-    left: 1%; /* Ajusté pour que la barre prenne toute la largeur */
-    width: 98%; /* Prenant toute la largeur de l'écran */
+    left: 1%;
+    width: 98%;
     display: flex;
     justify-content: center;
     padding-bottom: 0px;
@@ -57,7 +54,6 @@ body {
       rgb(0 0 0 / 15%) 0 18px 36px -18px;
   }
   
-  /* Reste du code inchangé */
   
 
 .nav [type="checkbox"] {
@@ -160,11 +156,6 @@ body {
   left: calc(50% + 75px);
   transition-delay: 0.3s;
 }
-
-/* .nav input:checked ~ .menu li:nth-child(4) {
-  top: -110px;
-  transition-delay: 0.4s;
-} */
 
 .nav input:checked ~ .menu li a span {
   opacity: 1;

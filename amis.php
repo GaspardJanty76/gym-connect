@@ -4,8 +4,7 @@ if (isset($_SESSION['username'])) {
     include_once 'templates/header.php';
     echo '<link rel="stylesheet" href="css/message.css">';
     include_once 'templates/navbar.php';
-    echo '<div class="title">Profil,</div>';
-    echo '<a href="methodes/userUnAuth.php" class = "submit">Déconnexion</a>';
+    echo '<div class="title">Amis,</div>';
     include_once 'templates/footer.php';
 }
 else{
